@@ -1,0 +1,53 @@
+.header {
+  height: 20vh;
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-name {
+  font-size: 30px;
+  color: white;
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mypage {
+  font-size: 25px;
+  color: white;
+}
+
+.logout {
+  font-size: 25px;
+  color: white;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.menu {
+  height: 80vh;
+  width: 300px;
+  background-color: whitesmoke;
+}
+
+.plan {
+  height: 80vh;
+  width: calc(100vw - 300px);
+  background-color: white;
+}
+
+.plan-date {
+  font-size: 20px;
+}
+
+.plan-title {
+  font-size: 40px;
+}
