@@ -1,13 +1,22 @@
-<%=  render 'shared/header'%>
-<%=  render 'shared/main'%>
-<%=  render 'shared/side'%>
+<header class='header'>
+  <div class='app-name'>toDo</div>
+  <div class='header-menu'>
+    <div class='mypage'>マイページ</div>
+    <div class='logout'>ログアウト</div>
+  </div>
+</header>
+<div class='content-wrapper'>
+  <div class='menu'>
+  </div>
+  <div class="plan">
+    <ul class='weekplan'>
+      <li class='plan-date'>日付</li>
+      <li class='plan-title'>タイトル</li>
+      <li calss='plan-text'>本文</li>
+      <li class='plan-category'>カテゴリー</li>
+      <li class='plan-time'>時間</li>
+    </ul>
+  </div>
+</div> 
 
-<div class="plan">week toDo
-  <ul class='weekplan'>
-    <li class='plan-date'>日付</li>
-    <li class='plan-title'>タイトル</li>
-    <li calss='plan-text'>本文</li>
-    <li class='plan-category'>カテゴリー</li>
-    <li class='plan-time'>時間</li>
-  </ul>
-</div>
+
