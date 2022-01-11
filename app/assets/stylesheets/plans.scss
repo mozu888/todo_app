@@ -1,3 +1,4 @@
+/*ヘッダー*/
 .header {
   height: 20vh;
   width: 100vw;
@@ -16,28 +17,37 @@
 .header-menu {
   display: flex;
   justify-content: flex-end;
+  color: white;
 }
 
 .mypage {
   font-size: 25px;
-  color: white;
+
 }
 
 .logout {
   font-size: 25px;
+
+}
+
+.plus-button {
+  font-size: 25px;
   color: white;
 }
 
+/*メニューとメイン*/
 .content-wrapper {
   display: flex;
 }
 
+/*メニュー*/
 .menu {
   height: 80vh;
   width: 300px;
   background-color: whitesmoke;
 }
 
+/*メイン*/
 .plan {
   height: 80vh;
   width: calc(100vw - 300px);
@@ -50,4 +60,44 @@
 
 .plan-title {
   font-size: 40px;
+}
+
+/*新規投稿ページ*/
+.new-plan {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #6091d3;
+  padding: auto;
+  margin: auto 20%;
+}
+
+.new-plan-form {
+  font-size: 40px;
+
+}
+
+.new-plan-title {
+
+}
+
+.new-plan-text {
+
+}
+
+.new-plan-category {
+
+}
+
+.new-plan-date {
+
+}
+
+.new-plan-time {
+
+}
+
+.from__btn {
+
 }
