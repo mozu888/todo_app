@@ -1,3 +1,4 @@
+/*ヘッダー*/
 .header {
   height: 20vh;
   width: 100vw;
@@ -34,16 +35,19 @@
   color: white;
 }
 
+/*メニューとメイン*/
 .content-wrapper {
   display: flex;
 }
 
+/*メニュー*/
 .menu {
   height: 80vh;
   width: 300px;
   background-color: whitesmoke;
 }
 
+/*メイン*/
 .plan {
   height: 80vh;
   width: calc(100vw - 300px);
@@ -58,6 +62,7 @@
   font-size: 40px;
 }
 
+/*新規投稿ページ*/
 .new-plan {
   height: 80vh;
   display: flex;
